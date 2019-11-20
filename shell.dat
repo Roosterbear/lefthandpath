@@ -1,0 +1,44 @@
+##############################################################################
+COMANDOS MAS COMUNES
+##############################################################################
+
+>ls
+listado de archivos y carpetas del directorio
+>ls -al
+lista detallada de archivos y carpetas del directorio
+
+>head archivo
+muestra las primeras lineas del archivo
+>tail archivo
+muestra las ultimas lineas del archivo
+
+>touch archivo
+crea o actualiza archivo
+>cd carpeta
+cambiar de carpeta
+>cd ..
+regresa a la carpeta anterior
+>mkdir carpeta
+crea directorio
+>rmdir
+borra carpeta (debe estar vacía)
+>history
+ver ultimos comandos ejecutados
+
+
+>cp archivo1 archivo2
+hace una copia de archivo1 en archivo2
+>cp archivo1,archivo2,archivo3 carpeta
+copia los archivos a la carpeta
+
+>mv archivo1 archivo2
+renombra el archivo1 por archivo2
+>mv archivo1,archivo2,archivo3 carpeta
+mueve los archivos a la carpeta
+
+>rm archivo
+borra archivo
+>rm -rf directorio
+borra de manera recursiva y forzada una carpeta 
+incluyendo su contenido (CUIDADO!)
+su sustituimos * por carpeta borra todo a su paso

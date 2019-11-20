@@ -1,0 +1,10 @@
+##############################################################################
+Proyecto nuevo
+##############################################################################
+git init
+git add .
+git commit -m "Mi primer subida"
+git remote add origin https://github.com/Roosterbear/project.git
+git push origin master
+
+

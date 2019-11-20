@@ -1,0 +1,11 @@
+##############################################################################
+# nslookup #
+##############################################################################
+nslookup
+>google.com
+
+nos resuelve la IP, cuando aparece que la respuesta no es autoritativa significa que el servidor DNS LOCAL no pudo resolver a la respuesta por si solo, sino que ha consultado a servidores alternativos.
+>set type=NS
+nos entrega el nombre del servidor DNS
+>set type=ANY
+nos entrega informacion mas detallada
