@@ -10,3 +10,14 @@ MARCAR
 #*62309 + 10d
 99 10d 9914#
 
+##############################################################################
+MEMORIAS
+##############################################################################
+DDR  = 2 Bloques de codigo por ciclo
+DDR2 = 4 Bloques de codigo por ciclo
+DDR3 = 8 Bloques de codigo por ciclo
+
+Checar nombre de modulo. Ej. PC3-10600
+Buscar los Datos Transferidos por Segundo (DDR3-1333 = 1333 Millones de datos/s)
+Velocidad de reloj x No. de Bloques nos da los DATOS TRANSFERIDOS POR SEGUNDO
+Datos transferidos/s x No. de Bloques nos da la MAXIMA CAPACIDAD DE TRANSFERENCIA

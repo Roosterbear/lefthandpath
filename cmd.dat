@@ -1,7 +1,7 @@
 ##############################################################################
 # nslookup #
 ##############################################################################
-nslookup
+
 >google.com
 
 nos resuelve la IP, cuando aparece que la respuesta no es autoritativa significa que el servidor DNS LOCAL no pudo resolver a la respuesta por si solo, sino que ha consultado a servidores alternativos.
@@ -9,3 +9,16 @@ nos resuelve la IP, cuando aparece que la respuesta no es autoritativa significa
 nos entrega el nombre del servidor DNS
 >set type=ANY
 nos entrega informacion mas detallada
+
+##############################################################################
+# netsh #
+##############################################################################
+>netsh wlan show profile
+muestra todas las redes inalambricas
+>netsh wlan show profile name=nombre_ssid key=clear
+muestra detalles de esa conexion y permite ver la clave
+
+##############################################################################
+# cmdkey
+##############################################################################
+>cmdkey /list
