@@ -1,0 +1,26 @@
+@echo off
+>quita la linea de ejecucion del comando,
+>para que se vea profesional es OBLIGATORIO
+
+pause
+>si queremos que se detenga para ver un mensaje
+
+pause>nul
+>no se ve el "Presiona una tecla para continuar..."
+
+start
+>abre archivos, paginas web, etc.
+
+
+
+color [fondo][letras]
+El mas tipico es 0F o 0A
+0 negro___________8 gris
+1 azul____________9 azul claro
+2 verde___________A verde claro
+3 aguamarina______B aguamarina claro
+4 rojo____________C rojo claro
+5 purpura_________D purpura claro
+6 amarillo_________E amarillo claro
+7 blanco-gris______F blanco blanco 
+

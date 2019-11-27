@@ -1,10 +1,18 @@
 ##############################################################################
+# attrib
+##############################################################################
+>cambia los permisos de archivos
+attrib /d /s -r -h -s *.*
+
+##############################################################################
 # nslookup #
 ##############################################################################
 
 >google.com
 
-nos resuelve la IP, cuando aparece que la respuesta no es autoritativa significa que el servidor DNS LOCAL no pudo resolver a la respuesta por si solo, sino que ha consultado a servidores alternativos.
+nos resuelve la IP, cuando aparece que la respuesta no es autoritativa 
+significa que el servidor DNS LOCAL no pudo resolver a la respuesta por si solo, 
+sino que ha consultado a servidores alternativos.
 >set type=NS
 nos entrega el nombre del servidor DNS
 >set type=ANY
@@ -22,3 +30,46 @@ muestra detalles de esa conexion y permite ver la clave
 # cmdkey
 ##############################################################################
 >cmdkey /list
+
+##############################################################################
+# tasklist
+##############################################################################
+>Muestra los programas ejecutados con su PID (Identificador de Proceso)
+
+
+##############################################################################
+# taskkill
+##############################################################################
+>Cerramos o "matamos" un proceso mediante su PID (Identificador de Proceso)
+>taskkill /PID 1 /f
+
+
+##############################################################################
+# ipconfig
+##############################################################################
+ipconfig /release
+libera la direccion IP
+
+ipconfig /release *con
+
+ipconfig /renew
+renueva la direccion IP
+
+
+##############################################################################
+# netstat
+##############################################################################
+>Sirve para ver las conexiones TCP, protocolos, direcciones de red, estado
+netstat -a 
+>Muestra ademas las conexiones UDP
+
+
+
+##############################################################################
+# diskpart
+##############################################################################
+diskpart
+list disk
+select disk 1
+create partition primary
+format fs=fat32
