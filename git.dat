@@ -5,6 +5,9 @@ git init
 git add .
 git commit -m "Mi primer subida"
 git remote add origin https://github.com/Roosterbear/project.git
+
+# Si queremos forzar la actualizacion le ponemos git push -f origin master
+# Se presenta cuando hacemos cambios sin bajar una actualizacion por git
 git push origin master
 
 
