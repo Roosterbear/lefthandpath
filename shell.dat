@@ -7,6 +7,14 @@ listado de archivos y carpetas del directorio
 >ls -al
 lista detallada de archivos y carpetas del directorio
 
+>rdesktop -0 -D -u usuario -p password 200.100.8.239 -g 1366x750
+nos conecta a escritorio remoto
+
+
+##############################################################################
+ARCHIVOS
+##############################################################################
+
 >head archivo
 muestra las primeras lineas del archivo
 >tail archivo
@@ -25,7 +33,6 @@ borra carpeta (debe estar vacía)
 >history
 ver ultimos comandos ejecutados
 
-
 >cp archivo1 archivo2
 hace una copia de archivo1 en archivo2
 >cp archivo1,archivo2,archivo3 carpeta
@@ -42,3 +49,121 @@ borra archivo
 borra de manera recursiva y forzada una carpeta 
 incluyendo su contenido (CUIDADO!)
 su sustituimos * por carpeta borra todo a su paso
+
+
+##############################################################################
+USUARIOS
+##############################################################################
+
+>user add usuario
+crear un usuario
+>passwd usuario
+ponerle un password al usuario
+>mkdir /home/usuario
+crear directorio de usuario
+>chown usuario:usuario -R /home/usuario
+ponerle dueño y grupo
+>chmod 755 -R /home/usuario
+asignarle permisos
+>usermod -d /home/usuario usuario
+asignarle ese directorio a tu usuario
+>adduser usuario admin
+agregar al usuario al grupo de admin
+>adduser usuario root
+agregar al usuario al grupo de root
+>userdel usuario
+eliminar usuario
+
+
+##############################################################################
+REDES
+##############################################################################
+
+>ifconfig
+nos muestra los datos de las interfaces de red
+
+
+
+
+
+
+
+
+
+##############################################################################
+MANIPULACION DE ARCHIVOS Y USO DE Vi
+##############################################################################
+
+>grep palabra_a_buscar archivo
+nos devuelve la linea que contenga la palabra a buscar en el archivo especificado
+
+>wc archivo
+nos devuelve las lineas, palabras y caracteres del archivo
+-l solo lineas
+-w solo palabras
+-m caracteres
+
+>vi archivo
+abre el archivo deseado con el editor vi
+>vi -r archivo
+abre modo recuperacion despues de un cuelgue
+>vi -R archivo
+abre en modo lectura
+>vi + archivo
+abre archivo y nos deja en la ultima linea
+>vi +[n] archivo
+abre el archivo y nos deja en la linea "n"
+
+
+>i
+modo insertar
+>[esc]
+salir a modo comandos
+>:w
+guardar
+>:x
+guarda y cierra
+>:q
+salir
+>:q!
+salir sin guardar
+
+>x
+borra  un caracter
+>[n]x
+borra "n" numero de caracteres
+>dd
+borra la linea completa
+>[n]dd
+borra "n" numero de lineas
+>dw
+corta la palabra
+>x
+corta caracter a la derecha del cursor
+>X
+corta caracter a la izquierda del cursor
+>p
+pega antes del cursor
+>P
+pega despues del cursor
+>o
+inserta abajo
+>O
+inserta arriba
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

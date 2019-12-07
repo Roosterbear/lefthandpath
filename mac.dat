@@ -1,0 +1,44 @@
+##############################################################################
+RESETEAR USUARIO
+##############################################################################
+
+*Entrar con CD (Oprimir letra c)
+Oprimir la letra c
+
+1.- Reiniciar sistema
+2.- Mantener la tecla command y la letra s
+antes de escuchar el sonido de arranque inicial,
+nos mandara una ventana de shell con privilegios de root
+#mount -vw /
+#rm /var/db/.AppleSetupDone
+#shutdown -h now
+3.- Nos aparecera la posibilidad de crear un nuevo usuario
+con privilegios de administrador. Con ese usuario modificamos
+la cuenta anterior en preferencias del sistema -> cuentas
+- Este archivo en blanco se crea solo para controlar 
+que no sea una nueva instalacion.
+
+Command+s
+/sbin/fsck -y
+/sbin/mount -vaw
+rm /var/db/.AppleSetupDone
+reboot (shutdown -h now)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
