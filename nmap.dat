@@ -1,0 +1,9 @@
+##############################################################################
+packet-trace
+##############################################################################
+SYN - Synchronize
+ACK - Acknowledgement
+RST - Reset
+PSH - Push (Entrega inmediata)
+URG - Urgent
+FIN - Finalize
