@@ -21,3 +21,14 @@ Checar nombre de modulo. Ej. PC3-10600
 Buscar los Datos Transferidos por Segundo (DDR3-1333 = 1333 Millones de datos/s)
 Velocidad de reloj x No. de Bloques nos da los DATOS TRANSFERIDOS POR SEGUNDO
 Datos transferidos/s x No. de Bloques nos da la MAXIMA CAPACIDAD DE TRANSFERENCIA
+
+##############################################################################
+UNIDADES DE DATOS DE PROTOCOLO (PDU)
+##############################################################################
+Datos    - Aplicación
+Segmento - Transporte
+Paquete  - Internetwork
+Trama    - Acceso a la red
+Bits     - Transmisión Física
+
+
